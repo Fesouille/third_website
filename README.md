@@ -12,7 +12,7 @@ Ce site étant un des premiers exercices de Joseph, il peut être considéré co
 * Contenu:
 	* Ce site contient, en fond, quelques informations sur Joseph.
 
-	* Dans la forme, il a été principalement construit en utilisant des concepts de base de HTML et CSS tels que les sélecteurs CSS, le floating, les figures, tableaux, footers, listes, et même quelques animations... Rien d'exceptionnel pour le moment.
+	* Dans la forme, étant donné les éléments de style CCS déjà développés dans le [second website](https://fesouille.github.io/second_website/), Joseph se concentre dans ce troisième volet principalement sur l'intégration d'un fichier javascript lui permettant de rendre sa page interactive... Rien d'exceptionnel pour le moment.
 
 * Quelques images d'illustrations:
 
