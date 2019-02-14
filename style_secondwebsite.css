@@ -1,0 +1,304 @@
+/* Animation Logo et background - BEGINNING */
+@-webkit-keyframes logo {
+    0% { 
+      transform: translateY(140px);
+      opacity:0
+    }
+    70% { 
+      transform: translateY(0);
+      opacity : 0.5;
+    }
+    100% { 
+      opacity:1;
+    }
+}
+@keyframes logo {
+  0% { 
+    transform: translateY(140px);
+    opacity:0
+  }
+  70% {
+    opacity : 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+@-webkit-keyframes fond {
+    0% { 
+    	opacity:0;
+    }
+    25%{
+    	opacity:.25;
+    }
+    50% { 
+    	opacity: 0.50;
+    }
+    75%{
+    	opacity: 0.75;
+    }
+    100% { 
+    	opacity:1;
+    }
+}
+@keyframes fond {
+    0% { 
+    	opacity:0;
+    }
+    25%{
+    	opacity:.25;
+    }
+    50% { 
+    	opacity: 0.50;
+    }
+    75%{
+    	opacity: 0.75;
+    }
+    100% { 
+    	opacity:1;
+    }
+}
+/* Animation Logo et background - END*/
+
+/*Style of COMMON PARTS - BEGINNING*/
+main{
+	max-width:65%;
+	margin:auto;
+	min-width: 450px;
+}
+section{
+	margin-top:100px;
+}
+hr{
+	border:2px solid #5DAF00;
+}
+h1, h2, h3 {
+	font-family: 'Roboto Slab', serif;
+}
+p, span, label, button, input, textarea{
+	font-family: 'Open Sans', sans-serif;
+}
+/*Style of COMMON PARTS - END*/
+
+/*Style of HEADER - BEGINNING*/
+header{
+	background: url(images/bluesky.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 1px;
+	-webkit-animation: fond 3s;
+	animation: fond 3s;
+} 
+#header-img img{
+	border: 1px solid white;
+	border-radius: 50%;
+	width:215px;
+	height:215px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-animation: logo 3s;
+	animation: logo 3s;
+}
+/*Style of HEADER - END*/
+
+/*Style of PRESENTATION - BEGINNING*/
+#presentation{
+	min-height: 250px;
+}
+#presentation table td:nth-child(2){
+	padding-left: 15px;
+	position: relative;
+}
+#presentation-title{
+	position: relative;
+	top:0px;
+}
+#presentation-title hr{
+	position: absolute;
+	top:22px;
+	left:2px;
+	width:100px;
+}
+/*Style of PRESENTATION - END*/
+
+/*Style of HOBBYS - BEGINNING*/
+#hobby-title{
+	position: relative;
+	width:10em;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#hobby-title hr{
+	position: absolute;
+	bottom:-15px;
+	width:120px;
+	left:8px;
+}
+#hobby h3{
+	background-color: #5DAF00;
+	color:#F5F5F5;
+	padding: 1px 0 2px 3px;
+	max-width:152px;
+	min-width: 150px;
+}
+.hobby-line{
+	display: flex;
+}
+
+.first-hobby-box{
+	width:50%;
+	display: flex;
+}
+.second-hobby-box{
+	width:50%;
+	display: flex;
+	margin-left:25px;
+}
+.hobby-icon{
+	margin-right: 15px;
+
+}
+.hobby-icon img{
+	position: relative;
+	top:25%;
+}
+.hobby-text p{
+	padding-right: 15px;
+}
+/*Style of HOBBYS - END*/
+
+/*Style of LINKS - BEGINNING*/
+/*style of the header of the LINK section - Beginning*/
+#links-header{
+	display:flex;
+	min-height:105px;
+}
+#links-header div{
+	width:33.33%;
+	min-width: 115px;
+	position: relative;
+}
+#links-header div:nth-child(2){
+	min-width: 160px;
+	text-align: center;
+}
+#links-header img{
+	width:90%;
+	max-width: 170px;
+	min-width: 105px;
+	height:auto;
+}
+#links-header div:nth-child(3) img{
+	position: absolute;
+	right:0px;
+}
+#links-header hr{
+	position: relative;
+	top:-15px;
+	left:-8px;
+	text-align:center;
+	width:125px;
+}
+/*style of the header of the LINK section - End*/
+
+/*style of the body of the LINK section - Beginning*/
+#links-container{
+	margin-top: 20px;
+	display:flex;
+	justify-content: center;
+}
+.links-box{
+	width:33.33%;
+	margin-right:15px;
+	text-align: center;
+	box-shadow: 0px 3px 8px 1.5px #D8D8D8;
+}
+.links-box p{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.links-title{
+	background-color: #5DAF00;
+	color:#F5F5F5;
+	margin-top: -19px;
+}
+#links-container img{
+	width:70px;
+	height:70px;
+}
+/*style of the body of the LINK section - End*/
+/*Style of LINKS - END*/
+
+/*Style of FORM - BEGINNING*/
+#form-title{
+	position: relative;
+}
+#form-title hr{
+	width:272px;
+	position: absolute;
+	left:0px;
+	top:23px;
+}
+#form-container{
+	display: flex;
+	justify-content: center;
+}
+input{
+	width:80%;
+}
+#mail{
+	width:40%;
+}
+#message{
+	width:75%;
+	height: 100px;
+}
+#form-button {
+	text-align: center;
+}
+button{
+	color: #5DAF00;
+	background-color: #F5F5F5;
+	border:1px solid #5DAF00;
+}
+button:hover{
+	color: #F5F5F5;
+	background-color: #5DAF00;
+	border:1px solid #F5F5F5;
+}
+input, textarea{
+	margin-bottom: 15px;
+	border:1px solid #5DAF00; 
+}
+/*Style of FORM - END*/
+
+/*Style of FOOTER - BEGINNING*/
+footer {
+	margin: 50px 0 0 0;
+	text-align: center;
+	background:url(images/footer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #F5F5F5;
+}
+footer p{
+	font-size: 10px;
+	font-weight: bold;
+}
+nav span{
+	margin-right: 25px;
+	font-size: 12px;
+}
+nav a{
+	text-decoration: none;
+	color: #F5F5F5;
+	font-weight: bold;
+}
+nav a:hover{
+	background-color: #F5F5F5;
+	color: #5DAF00;
+/*Style of FOOTER - END*/
+}
