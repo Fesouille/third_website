@@ -1,7 +1,7 @@
-Second website of Ismail Joseph
+Third website of Ismail Joseph
 =================================
 
-Titre: Second Website
+Titre: Third Website
 ----------------------------------
 
 *Exercice réalisé en février 2019, dans le cadre de ma formation [BeCode](https://www.becode.org/) de Web Developpeur de 7 mois, ayant commencé le 8 janvier 2019*
