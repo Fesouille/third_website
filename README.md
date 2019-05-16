@@ -1,4 +1,4 @@
-Third website of Ismail Joseph
+Third website of Ismail Joseph [UNDER CONSTRUCTION]
 =================================
 
 Titre: Third Website
@@ -29,6 +29,6 @@ Ce site étant un des premiers exercices de Joseph, il peut être considéré co
 * Changements:
 	* 21 janvier 2019: [first website](https://fesouille.github.io/first_website/) terminé
 	* 03 février 2019: [second website](https://fesouille.github.io/second_website/) terminé
-	* 14 février 2019: third website
+	* 14 février 2019: third website init
 
 
