@@ -16,11 +16,11 @@ Ce site étant un des premiers exercices de Joseph, il peut être considéré co
 
 * Quelques images d'illustrations:
 
-![Capture d'écran 1](images/site-joseph-img1.png)
+![Capture d'écran 1](images/site-joseph-img1.PNG)
 
-![Capture d'écran 2](images/site-joseph-img2.png)
+![Capture d'écran 2](images/site-joseph-img2.PNG)
 
-![Capture d'écran 2](images/site-joseph-img3.png)
+![Capture d'écran 2](images/site-joseph-img3.PNG)
 
 * Un aperçu?
 
